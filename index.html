@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>I-Store</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1><small>i</small>Store</h1>
+    <div class="night-mode">
+      <h2 class="header-text">Ночная тема</h2>
+      <label id="switcher" class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+  <!-- ./Header -->
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <div class="wrap-block">
+            <h2>iPhone 12 mini</h2>
+            <img id="iphone12mini" src="./img/12mini/black.jpg" alt="iphone 12 mini">
+            <div class="btn-block">
+              <h3>Цвета</h3>
+              <button id="btn-black__12-mini"class="btn btn-black"></button>
+              <button id="btn-green__12-mini"class="btn btn-green"></button>
+              <button id="btn-blue__12-mini"class="btn btn-blue"></button>
+            </div>
+            <div class="size">
+              <button id="btn64-12-mini" class="btn-size">64 ГБ</button>
+              <button id="btn128-12-mini" class="btn-size">128 ГБ</button>
+              <button id="btn256-12-mini" class="btn-size">256 ГБ</button>
+            </div>
+            <span id="iphone12mini-text" class="price">65 990 руб.</span>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="wrap-block">
+            <h2>iPhone 12</h2>
+            <img id="iphone12" src="./img/12/purple.jpg" alt="iphone 12">
+            <div class="btn-block">
+              <h3>Цвета</h3>
+              <button id="btn-purple__12"class="btn btn-purple"></button>
+              <button id="btn-black__12"class="btn btn-black"></button>
+              <button id="btn-green__12"class="btn btn-green"></button>
+            </div>
+            <div class="size">
+              <button id="btn64-12"class="btn-size">64 ГБ</button>
+              <button id="btn128-12"class="btn-size">128 ГБ</button>
+              <button id="btn256-12"class="btn-size">256 ГБ</button>
+            </div>
+            <span id="iphone12-text" class="price">74 990 руб.</span>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="wrap-block">
+            <h2>iPhone 12 Pro Max</h2>
+            <img id="iphone12ProMax" src="./img/12promax/gold.jpg" alt="iPhone 12 Pro Max">
+            <div class="btn-block">
+              <h3>Цвета</h3>
+              <button id="btn-gold__12-Pro-Max"class="btn btn-gold"></button>
+              <button id="btn-black__12-Pro-Max"class="btn btn-black"></button>
+              <button id="btn-white__12-Pro-Max"class="btn btn-white"></button>
+            </div>
+            <div class="size">
+              <button id="btn128-12-Pro-Max"class="btn-size">128 ГБ</button>
+              <button id="btn256-12-Pro-Max"class="btn-size">256 ГБ</button>
+              <button id="btn512-12-Pro-Max"class="btn-size">512 ГБ</button>
+            </div>
+            <span id="iphone12-Pro-Max-text" class="price">109 990 руб.</span>
+          </div>
+        </div>
+        <div id="newiphone" class="display-none col-lg-4 offset-lg-2 text-center">
+          <div class="wrap-block">
+            <h2>iPhone 11</h2>
+            <img id="iphone11" src="./img/11/yellow.jpg" alt="iPhone 11">
+            <div class="btn-block">
+              <h3>Цвета</h3>
+              <button id="btn-yellow__11"class="btn btn-yellow"></button>
+              <button id="btn-black__11"class="btn btn-black"></button>
+              <button id="btn-red__11"class="btn btn-red"></button>
+            </div>
+            <div class="size">
+              <button id="btn64-11"class="btn-size">64 ГБ</button>
+              <button id="btn128-11"class="btn-size">128 ГБ</button>
+              <button id="btn256-11"class="btn-size">256 ГБ</button>
+            </div>
+            <span id="iphone11-text" class="price">54 990 руб.</span>
+          </div>
+        </div>
+        <div id="newiphone" class="display-none col-lg-4 text-center">
+          <div class="wrap-block">
+            <h2>iPhone XR</h2>
+            <img id="iphoneXR" src="./img/xr/red.jpg" alt="iPhone XR">
+            <div class="btn-block">
+              <h3>Цвета</h3>
+              <button id="btn-red__XR"class="btn btn-red"></button>
+              <button id="btn-black__XR"class="btn btn-black"></button>
+              <button id="btn-white__XR"class="btn btn-white"></button>
+            </div>
+            <div class="size">
+              <button id="btn64-XR"class="btn-size">64 ГБ</button>
+              <button id="btn128-XR"class="btn-size">128 ГБ</button>
+            </div>
+            <span id="iphoneXR-text" class="price">44 990 руб.</span>
+          </div>
+        </div>
+        <div class="col-lg-2 offset-lg-5">
+          <button class="btn-add">Загрузить еще</button>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </main>
+  <!-- /.main -->
+
+
+
+  <!-- Connect JavaScript -->
+  <script src="./js/main.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
